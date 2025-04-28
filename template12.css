@@ -1,0 +1,163 @@
+.content{
+    margin: 0 auto;
+}
+img{
+    vertical-align: middle;
+}
+.col25{
+    width: 25%;
+    float: left;
+}
+.row::after,.pagination::after,.row2::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.center{
+    text-align: center;
+}
+.pagination{
+    display: inline-block;
+    padding: 32px 0;
+}
+.pagination a{
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    float: left;
+}
+.pagination a:hover:not(.active){
+    background-color: black;
+    color: white;
+}
+.active{
+    background-color: black;
+    color: white!important;
+}
+.active:hover{
+    background-color: #ccc;
+    color: black;
+}
+.container-about-me{
+    background-color: #616161;
+    padding: 32px 16px;
+}
+.title-about-me{
+    text-align: center;
+}
+.title-about-me h2{
+    padding: 32px 0;
+    color: white;
+}
+.skills{
+    padding: 32px 0;
+}
+.container-about-me p{
+    letter-spacing: 4px;
+    margin: 12px 0;
+}
+.white{
+    background-color: white;
+}
+.percent{
+    text-align: center;
+    background-color:#696969;
+    padding:4px 8px;
+    color: black;
+}
+.skills button{
+    border: none;
+    text-decoration: none;
+    padding: 12px 24px;
+    background-color: #f1f1f1;
+    color: black;
+    margin: 32px 0;
+}
+.myname{
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+hr{
+    opacity: 0.6;
+}
+.howmuch{
+
+}
+.col50{
+    width: 50%;
+    float: left;
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+.col50 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.col50 li{
+    border-bottom: 1px solid #ddd;
+    padding: 16px;
+    background-color: white;
+    color: black;
+}
+.firstli{
+    font-size: 24px;
+    background-color: black!important;
+    color: white!important;
+    padding: 32px 16px!important;
+}
+.col50 button{
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    padding: 12px 24px;
+    
+}
+.col50 button:hover{
+    background-color: #ccc;
+    color: black;
+}
+.row2{
+   margin: 0 -8px;
+}
+.container-form{
+    padding: 16px 0;
+}
+.container-form input[type=text]{
+    width: 100%;
+    padding: 12px 24px;
+    border: 1px solid #ccc;
+}
+.label{
+    padding: 8px 0;
+}
+.container-form input[type=submit]{
+    border: none;
+    width: 100%;
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top:8px;
+}
+.padding32{
+    padding: 32px 0;
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f1f1;
+    line-height: 1.5;
+    font-size: 15px;
+}
+h1,h2,h3{
+    font-weight: 400;
+    margin: 10px 0;
+}
+h4{
+    font-size: 20px;
+}
